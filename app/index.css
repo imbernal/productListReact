@@ -1,0 +1,41 @@
+#content{
+    margin-bottom: 4em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 15px;
+  background-color: rgba(243, 243, 243, 0.55);
+  box-shadow: 10px 10px 5px rgba(136, 136, 136, 0.59);
+  margin: 2%;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header a{
+  margin-bottom: 15px;
+}
+
+.header a img{
+  box-shadow: inset 0px 0px 20px 6px #888888;
+}
